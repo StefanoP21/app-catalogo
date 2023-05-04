@@ -10,7 +10,7 @@ import android.view.View;
 public class MainActivity extends AppCompatActivity {
 
     FragmentTransaction transaction;
-    Fragment fragmentInicio, fragmentPrimero, fragmentSegundo, fragmentTercero;
+    Fragment fragmentPrimero, fragmentSegundo, fragmentTercero;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
