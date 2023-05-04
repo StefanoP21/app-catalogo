@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SegundoFragment"
+    tools:ignore="MissingDefaultResource"
+    android:background="#f0fbf0">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:padding="10dp"
+        android:src="@drawable/p3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="MacBook Air M1"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:padding="20dp"
+        android:textColor="@color/teal_700"
+        android:text="La MacBook Air con chip M1 es una laptop superportátil, versátil y rápida. Tiene una increíble pantalla Retina, un diseño delgado y sin ventilador que la hace muy silenciosa y una batería que te acompaña todo el día. Esta MacBook Air vuela."
+        android:textAlignment="center"
+        android:textSize="17sp" />
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="120dp"
+        android:textSize="15sp"
+        android:text="Regresar"
+        android:onClick="onClick"
+        app:backgroundTint="@color/teal_700" />
+</FrameLayout>

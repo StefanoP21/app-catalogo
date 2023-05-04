@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrimerFragment"
+    tools:ignore="MissingDefaultResource"
+    android:background="#e0f0ff">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:padding="10dp"
+        android:src="@drawable/p1"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="MacBook Pro M2"
+        android:textColor="@color/light_blue_900"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:padding="20dp"
+        android:textSize="17sp"
+        android:textColor="@color/light_blue_900"
+        android:layout_gravity="center"
+        android:text="La MacBook Pro estrena una potencia y una eficiencia sin precedentes de la mano del chip M2 Pro. Tiene un rendimiento fuera de serie, incluso cuando no está conectada a la corriente. Una batería que te acompaña por más tiempo. Una espectacular pantalla Liquid Retina XDR."
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="120dp"
+        android:textSize="15sp"
+        android:text="Regresar"
+        android:onClick="onClick"
+        app:backgroundTint="@color/light_blue_900" />
+
+</FrameLayout>
